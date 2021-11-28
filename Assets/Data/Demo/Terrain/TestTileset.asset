@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0fd34b7a05fe4b9490244658d00c75ee, type: 3}
+  m_Name: TestTileset
+  m_EditorClassIdentifier: 
+  Rules:
+  - {fileID: 11400000, guid: 7f6bc48e494cee447b8b17c1996add1a, type: 2}
+  - {fileID: 11400000, guid: 01d23f4f774e37f45a2bfef3c82a5345, type: 2}
+  - {fileID: 11400000, guid: fd42fa4a9bb131d4f8a646485fcd96aa, type: 2}
+  - {fileID: 11400000, guid: 1028cbcc611a8ae4a9a805bd56ced3c6, type: 2}
+  - {fileID: 11400000, guid: f1160a0e041071d4191d746dc6342bf8, type: 2}
+  - {fileID: 11400000, guid: 8209d980a04db86409b0bf590f95b16e, type: 2}
+  - {fileID: 11400000, guid: 2ef5d3e7a39ffc0428301bfa02fc0030, type: 2}
+  - {fileID: 11400000, guid: 95ff5d9623c2c8940a153b5dbaee6a3e, type: 2}
+  - {fileID: 11400000, guid: 6339cd965ae6b064785c8e30609965a1, type: 2}
+  - {fileID: 11400000, guid: 10984a331381ec3418fa10037e24d639, type: 2}
+  - {fileID: 11400000, guid: 10f34f2b6e0fa64458c199d55835ec9d, type: 2}
+  - {fileID: 11400000, guid: 7045397f2107daa45a7a73ca46886886, type: 2}
+  - {fileID: 11400000, guid: ffa4419403696b2478ba0e6c94aa0b81, type: 2}
+  - {fileID: 11400000, guid: d2389900e5b9b534baf633b76ffd7ac4, type: 2}
+  - {fileID: 11400000, guid: aa488653cd2571e4fadaf1853b041dc7, type: 2}
+  - {fileID: 11400000, guid: 512452f2e23dbac439cdd7c91a821df1, type: 2}
+  - {fileID: 11400000, guid: 6c3b115b26e79d147b221fa2a3de7762, type: 2}
+  - {fileID: 11400000, guid: 16fffbcaf82d5cf44962bef4156bdedc, type: 2}
+  - {fileID: 11400000, guid: 9924c7ae49245b1479b1579590bb49d3, type: 2}
+  - {fileID: 11400000, guid: e5b32616039497d4ba96f7da304e0514, type: 2}
+  - {fileID: 11400000, guid: 6f696da1493ef5f40bed326883b6ff73, type: 2}
+  TerrainMaterial: {fileID: 2100000, guid: 49c0f7e0eed133143bbdb4baf6b9f68d, type: 2}
+  Symmetries:
+  - Name: ID
+    IndexingRotateSteps: {x: 0, y: 0}
+    RotationEuler: {x: 0, y: 0, z: 0}
+    FlipX: 0
+    FlipY: 0
+    FlipZ: 0
+  - Name: CW
+    IndexingRotateSteps: {x: 1, y: 0}
+    RotationEuler: {x: 0, y: 90, z: 0}
+    FlipX: 0
+    FlipY: 0
+    FlipZ: 0
+  - Name: CCW
+    IndexingRotateSteps: {x: 3, y: 0}
+    RotationEuler: {x: 0, y: 270, z: 0}
+    FlipX: 0
+    FlipY: 0
+    FlipZ: 0
+  - Name: 180
+    IndexingRotateSteps: {x: 2, y: 0}
+    RotationEuler: {x: 0, y: 180, z: 0}
+    FlipX: 0
+    FlipY: 0
+    FlipZ: 0
+  TileSize: {x: 1, y: 0, z: 1}
+  BlockSize: {x: 3, y: 1, z: 3}

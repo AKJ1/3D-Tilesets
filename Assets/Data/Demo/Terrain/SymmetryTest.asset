@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0fd34b7a05fe4b9490244658d00c75ee, type: 3}
+  m_Name: SymmetryTest
+  m_EditorClassIdentifier: 
+  Rules:
+  - {fileID: 11400000, guid: 27035126570a2254eac79a1f87a0eab5, type: 2}
+  - {fileID: 11400000, guid: 5db97ddbb5ad3ba4482fab9d9c028046, type: 2}
+  - {fileID: 11400000, guid: 037326ef093bc744c885162dccf1241e, type: 2}
+  - {fileID: 11400000, guid: dbeb1f038103a6944ba70487c4ee8122, type: 2}
+  - {fileID: 11400000, guid: a7ddaa9f4605c39409e5a0a114a04db8, type: 2}
+  TerrainMaterial: {fileID: 670224309865224971, guid: 2fd8612f14d913744b58d494e472c561,
+    type: 3}
+  Domain: 0
+  Symmetries:
+  - Name: ID
+    IndexingRotateSteps: {x: 0, y: 0}
+    RotationEuler: {x: 0, y: 0, z: 0}
+    FlipX: 0
+    FlipY: 0
+    FlipZ: 0
+  - Name: CCW
+    IndexingRotateSteps: {x: 1, y: 0}
+    RotationEuler: {x: 0, y: 270, z: 0}
+    FlipX: 0
+    FlipY: 0
+    FlipZ: 0
+  - Name: CW
+    IndexingRotateSteps: {x: 3, y: 0}
+    RotationEuler: {x: 0, y: 90, z: 0}
+    FlipX: 0
+    FlipY: 0
+    FlipZ: 0
+  - Name: 180
+    IndexingRotateSteps: {x: 2, y: 0}
+    RotationEuler: {x: 0, y: 180, z: 0}
+    FlipX: 0
+    FlipY: 0
+    FlipZ: 0
+  - Name: MirY
+    IndexingRotateSteps: {x: 0, y: 0}
+    RotationEuler: {x: 0, y: 0, z: 0}
+    FlipX: 0
+    FlipY: 1
+    FlipZ: 0
+  - Name: MirYCW
+    IndexingRotateSteps: {x: 3, y: 0}
+    RotationEuler: {x: 0, y: -90, z: 0}
+    FlipX: 0
+    FlipY: 1
+    FlipZ: 0
+  - Name: MirYCCW
+    IndexingRotateSteps: {x: 1, y: 0}
+    RotationEuler: {x: 0, y: 90, z: 0}
+    FlipX: 0
+    FlipY: 1
+    FlipZ: 0
+  - Name: MirY180
+    IndexingRotateSteps: {x: 2, y: 0}
+    RotationEuler: {x: 0, y: 180, z: 0}
+    FlipX: 0
+    FlipY: 1
+    FlipZ: 0
+  TileSize: {x: 1, y: 0, z: 1}
+  BlockSize: {x: 3, y: 1, z: 3}
+  MaxRuleSize: 1

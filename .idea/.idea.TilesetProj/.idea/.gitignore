@@ -1,0 +1,13 @@
+# Default ignored files
+/shelf/
+/workspace.xml
+# Rider ignored files
+/modules.xml
+/contentModel.xml
+/projectSettingsUpdater.xml
+/.idea.TilesetProj.iml
+# Datasource local storage ignored files
+/../../../../../../../../:\Users\Ace\Projects\TilesetProj\.idea\.idea.TilesetProj\.idea/dataSources/
+/dataSources.local.xml
+# Editor-based HTTP Client requests
+/httpRequests/
